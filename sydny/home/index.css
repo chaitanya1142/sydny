@@ -1,0 +1,164 @@
+.messagehead p {
+    background-color: rgb(247, 247, 247);
+}
+
+
+/* nav bar css */
+.navbarstyle {
+    background-color: white;
+    padding: 50px 0px 0px 0px;
+}
+
+.pages {
+    color:#000000;
+    font-size: 10px ;
+    font-family:sans-serif;
+    padding-bottom: 32px;
+    text-align: center;
+}
+.pages:hover{
+    border-bottom: 3px solid #000000;
+}
+/* .inline-element{
+    display: inline;
+} */
+
+
+
+/* banner 1 css */
+.h1B{
+    font-size: 80px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.pB{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button {
+    border: 1px solid black;
+    background-color: #000000;
+    color: white;
+    height: 50px;
+    width: 150px;
+    font-family: sans-serif;
+}
+
+.button:hover {
+    background-color: #5a5959;
+    border: 1px solid #5a5959;
+    color: white;
+}
+
+/* text show code  */
+/* pragrapha style  */
+.para{
+    padding: 50px 0px;
+}
+.para strong{
+    font-family:Bahnschrift Light;
+    font-size:14px;
+    color:#000000; 
+}
+.para #strong{
+    color:rgb(185,159,121);
+}
+.collection {
+    position: relative;
+} 
+
+.style{
+    position: absolute;
+    top: 400px;
+    left: 80px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* .arrivals */
+.arrivals-all{
+    color: #000000;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+.arrivals-all  :hover{
+    color:rgb(231,167,79);
+    text-decoration: underline;
+}
+
+
+.banner-styleA{
+    font-family: sans-serif;
+}
+.banner-styleA :hover{
+    color:rgb(231,167,79);
+    text-decoration: underline;
+}
+
+.about{
+    padding: 100px;
+    background-color: rgb(252,250,246);
+}
+
+
+ /* footer */
+.underline-on-hover {
+    font-family: sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    position: relative;
+  }
+  
+  .underline-on-hover::after {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    height: 2px;
+    width: 0;
+    background-color: #ffffff; /* Set your desired underline color */
+    transition: width 0.6s ease;
+  }
+  
+  .underline-on-hover:hover::after {
+    width: 100%;
+  }
+
+
+  .input-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  #user-input {
+    padding: 8px 40px 8px 15px;
+    border: none;
+    font-size: 14px;
+    width: 350px;
+    transition: border-color 0.3s ease;
+  }
+  
+  #user-input:focus {
+    outline: none;
+  }
+  
+  .arrow-container {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: #080808;
+  }
+  
+  .fafaIcon{
+    margin: 10px;
+    padding: 6px;
+    font-size: 20px;
+    background-color: rgb(56,54,52);
+}
+.fafaIcon:hover{
+    border-radius: 100%;
+    background-color: rgba(124,125,122, 0.5);
+}
+  

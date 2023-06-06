@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="/home/index.css" />
+    <link rel="icon" type="image" href="/img" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sydney</title>
+
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- MDB -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- FA fa icon link  -->
+    <script
+      src="https://kit.fontawesome.com/f9c5626f90.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- bootstrap cdn link  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <!-- text of site  -->
+    <div class="fixed-top text-center container-xxl messagehead">
+      <p class="text-secondary">Free shipping worldwide</p>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar sticky-top mt-50 navbar-expand-lg navbar-light bg-light">
+      <!-- Container wrapper -->
+      <div class="container-fluid navbarstyle">
+        <!-- Toggle button -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-mdb-toggle="collapse"
+          data-mdb-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fas fa-bars"></i>
+        </button>
+
+        <!-- Collapsible wrapper -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <!-- Left links -->
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link pages pb-5" href="/shop/index.html">SHOP</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link pages pb-5" href="/journal/index.html"
+                >JOURNAL</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link pages pb-5" href="/about/index.html">ABOUT</a>
+            </li>
+          </ul>
+        </div>
+        <!-- Left links -->
+        <!-- Collapsible wrapper -->
+
+        <!-- Navbar brand -->
+        <a href="/home/index.html" class="container navbar-brand justify-content-center pb-5">
+          <svg
+            width="127"
+            height="24"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 127.67 23.36"
+          >
+            <path
+              fill="currentColor"
+              d="M14.14,11.84a38.37,38.37,0,0,0-3.26-2.05C9.73,9.13,8.81,8.57,8.13,8.1a7.8,7.8,0,0,1-1.7-1.64,3.62,3.62,0,0,1-.67-2.14,3.63,3.63,0,0,1,.9-2.53A2.78,2.78,0,0,1,8.8.8a4.35,4.35,0,0,1,2.59.8,6.86,6.86,0,0,1,1.92,2A9.35,9.35,0,0,1,14.56,6.4h1.28V.32H15s-.26.17-.64.45a6,6,0,0,0-1.12,1.31,6.94,6.94,0,0,0-1.41-1A7.39,7.39,0,0,0,8.16,0,10.81,10.81,0,0,0,3.84.77a6,6,0,0,0-2.66,2A4.89,4.89,0,0,0,.32,5.6a6.37,6.37,0,0,0,.93,3.46,8.87,8.87,0,0,0,2.24,2.4A33.75,33.75,0,0,0,6.91,13.6c1.11.64,2,1.17,2.59,1.6A6.56,6.56,0,0,1,11,16.67a3,3,0,0,1,.64,1.89,3.9,3.9,0,0,1-1.09,2.91,3.9,3.9,0,0,1-2.91,1.09,6,6,0,0,1-5.06-2.78A10.34,10.34,0,0,1,1.28,17H0V23H.8s.26-.17.64-.45a5.37,5.37,0,0,0,1.12-1.31,5.83,5.83,0,0,0,1.5,1.06,9.23,9.23,0,0,0,4.26,1,12.56,12.56,0,0,0,4.83-.83,6.72,6.72,0,0,0,3-2.24,5.68,5.68,0,0,0,.13-6.21A8.1,8.1,0,0,0,14.14,11.84Z"
+            ></path>
+            <path
+              fill="currentColor"
+              d="M33.43,1l2.4,1L31,12.64,26.23,3.2a5.17,5.17,0,0,0-1.66-2,4.51,4.51,0,0,0-2.66-.7h-4V1l1.6.48,6.56,13.12v7.36l-1.92.48v.48h9.12V22.4l-1.92-.48V14.24L37,1.92l2.56-1V.48H33.43Z"
+            ></path>
+            <path
+              fill="currentColor"
+              d="M49,.48H40.79V1l1.92.48V21.92l-1.92.48v.48H49q5.73,0,8.77-2.94t3.07-8.26q0-5.31-3.07-8.26T49,.48Zm4.61,19.2A5.25,5.25,0,0,1,49,22.08H48V1.28h1a5.23,5.23,0,0,1,4.61,2.43q1.63,2.4,1.63,8T53.56,19.68Z"
+            ></path>
+            <path
+              fill="currentColor"
+              d="M78.87,1l2.56,1v12.8l-10.24-12a8.07,8.07,0,0,0-1.83-1.63A4.88,4.88,0,0,0,66.71.48H63.35V1l2.24.64V21.44L63,22.4v.48h6.08V22.4l-2.56-1V5.92L81.43,23.36h1V1.92L85,1V.48H78.87Z"
+            ></path>
+            <path
+              fill="currentColor"
+              d="M102.79,18.34a7.14,7.14,0,0,0-1,3.74H94.24V12.16h3.68a7.19,7.19,0,0,0,.83,2.27,7.82,7.82,0,0,0,.61.93h1V8.16h-1a7.82,7.82,0,0,0-.61.93,7.19,7.19,0,0,0-.83,2.27H94.24V1.28h6.88a7.14,7.14,0,0,0,1,3.74,4.66,4.66,0,0,0,1,1.22h1V.48H87V1L89,1.44V21.92L87,22.4v.48H104.8V17.12h-1A4.66,4.66,0,0,0,102.79,18.34Z"
+            ></path>
+            <path
+              fill="currentColor"
+              d="M121.59.48V1l2.4,1-4.87,10.72L114.39,3.2a5.11,5.11,0,0,0-1.67-2,4.47,4.47,0,0,0-2.65-.7h-4V1l1.6.48,6.56,13.12v7.36l-1.92.48v.48h9.12V22.4l-1.92-.48V14.24l5.6-12.32,2.56-1V.48Z"
+            ></path>
+          </svg>
+        </a>
+
+
+
+        
+        <!-- Right elements -->
+        <div class="d-flex align-items-center pb-5">
+          <!-- Icon -->
+          <a class="text-reset me-3" href="#">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </a>
+
+          <a class="text-reset me-3" href="#">
+            <i class="fa-regular fa-heart"></i>
+          </a>
+
+          <a class="text-reset me-3" href="#">
+            <svg
+              width="20"
+              height="20"
+              fill="none"
+              aria-hidden="true"
+              focusable="false"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 20 20"
+            >
+              <path
+                d="M4.167 17.333v.5h1v-.5h-1Zm10.666 0v.5h1v-.5h-1Zm-9.666 0v-.666h-1v.666h1Zm3.5-4.166h2.666v-1H8.667v1Zm6.166 3.5v.666h1v-.666h-1Zm-3.5-3.5a3.5 3.5 0 0 1 3.5 3.5h1a4.5 4.5 0 0 0-4.5-4.5v1Zm-6.166 3.5a3.5 3.5 0 0 1 3.5-3.5v-1a4.5 4.5 0 0 0-4.5 4.5h1ZM10 4.166a3.167 3.167 0 0 0-3.167 3.166h1c0-1.196.97-2.166 2.167-2.166v-1Zm3.167 3.166A3.167 3.167 0 0 0 10 4.167v1c1.197 0 2.167.97 2.167 2.166h1ZM10 10.5a3.167 3.167 0 0 0 3.167-3.167h-1c0 1.197-.97 2.167-2.167 2.167v1Zm0-1a2.167 2.167 0 0 1-2.167-2.167h-1A3.167 3.167 0 0 0 10 10.5v-1Zm0 9.333A8.833 8.833 0 0 1 1.167 10h-1c0 5.43 4.402 9.833 9.833 9.833v-1ZM18.833 10A8.833 8.833 0 0 1 10 18.833v1c5.43 0 9.833-4.402 9.833-9.833h-1ZM10 1.167A8.833 8.833 0 0 1 18.833 10h1c0-5.43-4.402-9.833-9.833-9.833v1Zm0-1C4.57.167.167 4.569.167 10h1A8.833 8.833 0 0 1 10 1.167v-1Z"
+                fill="currentColor"
+              ></path>
+            </svg>
+          </a>
+
+          <a class="text-reset me-3" href="#">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <span class="badge rounded-pill badge-notification bg-secondary"
+              >1</span
+            >
+          </a>
+        </div>
+        <!-- Right elements -->
+      </div>
+      <!-- Container wrapper -->
+    </nav>
+    <!-- Navbar -->
+
+    <!-- Background image -->
+    <div
+      class="p-5 text-center bg-image"
+      style="background-image: url('/img/banner1.png'); height: 550px"
+    >
+      <div class="mask" style="background-color: rgba(0, 0, 0, 0)">
+        <div class="d-flex justify-content-center align-items-center h-100">
+          <div class="text-white">
+            <h1 class="mb-3 h1B">
+              Essentials for <br />
+              a cold winter
+            </h1>
+            <p class="mb-3 pB">Discover Autumn Winter 2021</p>
+            <!-- <a class="btn btn-outline-light btn-lg" href="#!" role="button">Call to action</a> -->
+            <button class="button">SHOP NOW</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Background image -->
+
+    <figure class="text-center para p-5">
+      <p style="font-size: 14; font-family: sans-serif">
+        THIS IS A DEMONSTRATION OF THE SYDNEY THEME FOR VERSE BY
+        <b id="strong">MATTER DESIGN.<br /></b>WEAR BY
+        <b id="strong"> SUNSPEL</b> AND <b id="strong">SCOTCH&SODA</b>
+      </p>
+    </figure>
+
+    <!-- box of colliection  -->
+    <div class="container-fluid mb-4">
+      <div class="row">
+        <div class="col-md-6">
+          <div
+            class="p-2 collection"
+            data-mdb-ripple-color="light"
+            style="
+              background-image: url('/img/collection1.png');
+              height: 630px;
+              background-repeat: no-repeat;
+            "
+          >
+            <div class="style">
+              <p class="text-white mb-1 h1">Men</p>
+
+              <ins class="text-white mb-0">SHOP NOW</ins>
+            </div>
+            <div class="hover-overlay">
+              <div
+                class="mask"
+                style="
+                  background-color: hsla(0, 0%, 0%, 0.5);
+                  max-height: 600px;
+                "
+              ></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div
+            class="p-2 collection"
+            data-mdb-ripple-color="light"
+            style="
+              background-image: url('/img/collection2.png');
+              height: 630px;
+              background-repeat: no-repeat;
+            "
+          >
+            <div class="style">
+              <p class="text-white mb-1 h1">Woman</p>
+
+              <ins class="text-white mb-0">SHOP NOW</ins>
+            </div>
+            <div class="hover-overlay">
+              <div
+                class="mask"
+                style="
+                  background-color: hsla(0, 0%, 0%, 0.5);
+                  max-height: 600px;
+                "
+              ></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div
+            class="p-2 collection"
+            data-mdb-ripple-color="light"
+            style="
+              background-image: url('/img/collection3.png');
+              height: 630px;
+              background-repeat: no-repeat;
+            "
+          >
+            <div class="style">
+              <p class="text-white mb-1 h1">Accessories</p>
+
+              <ins class="text-white mb-0">SHOP NOW</ins>
+            </div>
+            <div class="hover-overlay">
+              <div
+                class="mask"
+                style="
+                  background-color: hsla(0, 0%, 0%, 0.5);
+                  max-height: 600px;
+                "
+              ></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div
+            class="p-2 collection"
+            data-mdb-ripple-color="light"
+            style="
+              background-image: url('/img/collection4.png');
+              height: 630px;
+              background-repeat: no-repeat;
+            "
+          >
+            <div class="style">
+              <p class="text-white mb-1 h1">Simple Cotton</p>
+              <ins class="text-white mb-0">SHOP NOW</ins>
+            </div>
+            <div class="hover-overlay">
+              <div
+                class="mask"
+                style="
+                  background-color: hsla(0, 0%, 0%, 0.5);
+                  max-height: 600px;
+                "
+              ></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- collection part over  -->
+
+    <!-- Arrivals  Tshart-->
+    <div class="container-sm   mb-5">
+      <div class="text-center mb-3">
+        <h1 style="font-family: Georgia, 'Times New Roman', Times, serif">
+          New Arrivals
+        </h1>
+        <a class="arrivals-all" href="#!"><b>VIEW ALL</b></a>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <figure class="figure">
+            <img
+              src="/img/shirt1.jpg"
+              class="figure-img img-fluid rounded shadow-3 mb-3"
+              id="tshirt"
+              alt="Loding"
+              height="450px"
+              max-width="300px"
+            />
+            <figcaption
+              class="figure-caption"
+              style="font-family: serif; font-size: 16px"
+            >
+              Classic T-Shirt
+            </figcaption>
+            <figcaption class="figure-caption h4">$75</figcaption>
+          </figure>
+        </div>
+        <div class="col-4">
+          <figure class="figure">
+            <img
+              src="/img/shirt2.jpg"
+              class="figure-img img-fluid rounded shadow-3 mb-3"
+              id="tshirt"
+              alt="Loding"
+              height="450px"
+              max-width="300px"
+            />
+            <figcaption
+              class="figure-caption"
+              style="font-family: serif; font-size: 16px"
+            >
+              Classic T-Shirt
+            </figcaption>
+            <figcaption class="figure-caption h4">$75</figcaption>
+          </figure>
+        </div>
+        <div class="col-4">
+          <figure class="figure">
+            <img
+              src="/img/shirt3.jpg"
+              class="figure-img img-fluid rounded shadow-3 mb-3"
+              id="tshirt"
+              alt="Loding"
+              height="450px"
+              max-width="300px"
+            />
+            <figcaption
+              class="figure-caption"
+              style="font-family: serif; font-size: 16px"
+            >
+              Classic T-Shirt
+            </figcaption>
+            <figcaption class="figure-caption h4">$75</figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+    <!-- T-Shirt coed  -->
+
+    <!-- history Luxury Knitwear  -->
+    <div class="container-xl mb-5">
+      <div class="row">
+        <div class="col-md-6">
+          <img
+            src="/img/highlight.png"
+            alt="highlight"
+            width="100%"
+            height="100%"
+          />
+        </div>
+        <div class="col-md-6">
+          <div class="text-center mt-5">
+            <h1 class="mb-5" style="font-family: serif">Luxury Knitwear</h1>
+
+            <p class="mb-4" style="font-family: sans-serif">
+              This soft lambswool jumper is knitted in Scotland, <br />
+              using yarn from one of the world's oldest spinners <br />
+              based in Fife
+            </p>
+
+            <a class="arrivals-all" href="#!"><b>SHOP NOW</b></a>
+            <br />
+            <br />
+            <br />
+            <img src="/img/highlightmin.png" alt="highlightmin" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- highlight -->
+
+    <!-- Background image -->
+    <div
+      class="p-5 text-center bg-image"
+      style="
+        background-image: url('/img/banner2.png');
+        height: 550px;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+      "
+    >
+      <div class="mask" style="background-color: rgba(0, 0, 0, 0)">
+        <div class="d-flex justify-content-center align-items-center h-100">
+          <div class="text-white">
+            <h1 class="mb-5 pb-5 h1B">
+              -50% off <br />
+              All Essentials
+            </h1>
+
+            <div class="row mt-5 pt-5">
+              <div class="col-6 text-end banner-styleA">
+                <a href="#!" class="text-white"><ins>WOMAN</ins></a>
+              </div>
+              <div class="col-6 text-start banner-styleA">
+                <a href="#!" class="text-white"><ins>MAN</ins></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Background image -->
+
+    <!-- ABOUT -->
+    <div class="container-sm text-center about mb-2">
+      <h6 class="mb-5" style="color: black">ABOUT SYDNEY</h6>
+
+      <h1
+        class="display-3"
+        style="font-family: 'Times New Roman', Times, serif; color: black"
+      >
+        “We believe in two things: the pursuit <br />
+        of quality in everything we do, and <br />
+        looking after one another. Everything <br />
+        else should take care of itself.”
+      </h1>
+    </div>
+    <!-- ABOUT -->
+
+    <!-- JOURNAL -->
+    <div class="container-xl mb-5" style="margin: 0px 50px">
+      <h1
+        class="text-center"
+        style="color: black; font-family: 'Times New Roman', Times, serif"
+      >
+        Journal
+      </h1>
+      <p class="text-center" style="font-family: sans-serif">
+        Notes on life and style
+      </p>
+
+      <div class="row text-start">
+        <div class="col-md-4">
+          <figure class="figure">
+            <img
+              src="/img/blog1.png"
+              class="figure-img img-fluid shadow-3 mb-3"
+              height="320"
+              width="100%"
+              alt="Taking up Water with a Spoon"
+            />
+            <figcaption class="figure-caption">
+              DESIGN
+              <br />
+              <h2
+                href="#!"
+                style="
+                  color: black;
+                  font-family: 'Times New Roman', Times, serif;
+                "
+              >
+                The new standard of <br />
+                Opening and Closing
+              </h2>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-md-4">
+          <figure class="figure">
+            <img
+              src="/img/blog2.png"
+              class="figure-img img-fluid shadow-3 mb-3"
+              height="320"
+              width="100%"
+              alt="Taking up Water with a Spoon"
+            />
+            <figcaption class="figure-caption">
+              DESIGN
+              <br />
+              <h2
+                href="#!"
+                style="
+                  color: black;
+                  font-family: 'Times New Roman', Times, serif;
+                "
+              >
+                Lorem Ipsum is simply <br />
+                dummy text of the <br />
+                printing and typesetting <br />
+                industry.
+              </h2>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-md-4">
+          <figure class="figure">
+            <img
+              src="/img/blog3.png"
+              class="figure-img img-fluid shadow-3 mb-3"
+              height="320"
+              width="100%"
+              alt="Taking up Water with a Spoon"
+            />
+            <figcaption class="figure-caption">
+              DESIGN
+              <br />
+              <h2
+                href="#!"
+                style="
+                  color: black;
+                  font-family: 'Times New Roman', Times, serif;
+                "
+              >
+                It is a long established <br />
+                fact that a reader by the<br />
+                readable
+              </h2>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+    <!-- JOURNAL -->
+
+    <!-- Background image -->
+    <div
+      class="container-xl p-5 text-center bg-image mb-5"
+      style="background-image: url('/img/banner3.png'); height: 500px"
+    >
+      <div class="mask" style="background-color: rgba(0, 0, 0, 0)">
+        <div class="d-flex justify-content-center align-items-center h-100">
+          <div class="text-white">
+            <h1 class="mb-3 h1B">We are Sustainable</h1>
+            <p class="mb-3 pB">
+              From caring for our land to supporting our people, discover the
+              steps we’re taking to do <br />
+              more for the world around us.
+            </p>
+            <br /><br />
+            <button class="button">READ MORE</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Background image -->
+
+    <!-- Styled by You -->
+    <div class="text-center">
+      <h1 style="font-family: 'Times New Roman', Times, serif; color: #000">
+        Styled by You
+      </h1>
+      <h6>Tag @sydney to be featured.</h6>
+      <br />
+      <div class="container-fluid row">
+        <div class="p-0 m-0 col-3">
+          <img src="/img/socialMedia1.png" width="100%" alt="socialMedia" />
+        </div>
+        <div class="p-0 m-0 col-3">
+          <img src="/img/socialMedia2.png" width="100%" alt="socialMedia" />
+        </div>
+        <div class="p-0 m-0 col-3">
+          <img src="/img/socialMedia3.png" width="100%" alt="socialMedia" />
+        </div>
+        <div class="p-0 m-0 col-3">
+          <img src="/img/socialMedia4.png" width="100%" alt="socialMedia" />
+        </div>
+      </div>
+    </div>
+    <!-- Styled by You -->
+
+    <!-- property -->
+    <div class="container-fluid row text-center p-5">
+      <div class="col-4">
+        <svg
+          width="60"
+          height="62"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 60 62"
+        >
+          <path
+            d="M53.063 17.607a3.026 3.026 0 0 0-1.055-1.066L31.383 4.553a2.832 2.832 0 0 0-2.766 0L7.992 16.541a3.025 3.025 0 0 0-1.055 1.066 2.932 2.932 0 0 0-.375 1.453v23.88a2.957 2.957 0 0 0 .378 1.474c.251.447.615.817 1.052 1.069L28.617 57.47c.403.228.853.352 1.313.363h.14a3.13 3.13 0 0 0 1.313-.363l20.625-11.988c.437-.252.8-.622 1.052-1.069.252-.447.382-.957.377-1.474V19.06a3.106 3.106 0 0 0-.374-1.453ZM29.53 6.224a.982.982 0 0 1 .938 0l20.133 11.698L30.21 29.886 9.42 17.922l20.11-11.698ZM8.906 43.788a.954.954 0 0 1-.345-.359.994.994 0 0 1-.124-.49V19.57l20.836 11.988-.187 23.952-20.18-11.721Zm42.188 0L30.96 55.484l.187-23.928 20.415-11.964V42.94a.994.994 0 0 1-.124.49.953.953 0 0 1-.345.358Z"
+            fill="currentColor"
+          ></path>
+          <path
+            d="m37.167 36.5 3.25 3.25 5.416-6.5"
+            stroke="currentColor"
+            stroke-width="2"
+          ></path>
+        </svg>
+        <br /><br />
+        <span class="h6">Free Delivery Worldwide</span>
+        <br />
+        <span>Click to learn more</span>
+      </div>
+      <div class="col-4">
+        <svg
+          width="51"
+          height="54"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 51 54"
+        >
+          <path
+            d="M2.757 27.837h-.033a.753.753 0 0 1-.714-.788c.315-7.305 3.903-14.019 9.842-18.42C17.704 4.292 25.106 2.9 32.164 4.813a.753.753 0 0 1 .528.924.745.745 0 0 1-.915.534c-6.62-1.791-13.56-.488-19.043 3.576-5.573 4.129-8.939 10.424-9.233 17.271a.745.745 0 0 1-.744.719ZM26.021 52.4a24.09 24.09 0 0 1-8.833-1.682C10.055 47.896 4.82 41.97 2.829 34.46a.754.754 0 0 1 .528-.925.746.746 0 0 1 .915.534c1.869 7.044 6.772 12.6 13.458 15.246 6.662 2.634 14.188 1.946 20.13-1.843a.743.743 0 0 1 1.029.236.757.757 0 0 1-.234 1.04C34.863 51.167 30.463 52.4 26.02 52.4ZM42.376 45.53a.736.736 0 0 1-.528-.222.761.761 0 0 1 0-1.067c4.886-4.938 7.235-11.721 6.44-18.61-.807-6.996-4.604-13.089-10.423-16.72a.758.758 0 0 1-.243-1.037.74.74 0 0 1 1.026-.245c6.21 3.877 10.261 10.375 11.122 17.829.846 7.35-1.656 14.585-6.866 19.853a.75.75 0 0 1-.528.218Z"
+            fill="#000"
+            stroke="#000"
+            stroke-width="0.4"
+          ></path>
+          <path
+            d="M28.096 8.498a.744.744 0 0 1-.65-.385.76.76 0 0 1 .285-1.027l3.191-1.813-1.833-2.915a.759.759 0 0 1 .231-1.04.743.743 0 0 1 1.032.233l2.256 3.589a.759.759 0 0 1-.264 1.06l-3.879 2.204a.785.785 0 0 1-.369.094ZM42.377 45.528a.74.74 0 0 1-.528-.221.77.77 0 0 1-.22-.555l.12-4.495c.013-.415.35-.724.766-.734.411.012.738.358.726.776l-.1 3.698 3.417-.094h.021c.402 0 .735.325.747.734a.752.752 0 0 1-.726.776l-4.205.115h-.018ZM1.545 38.753a.754.754 0 0 1-.653-1.112l2.003-3.737a.744.744 0 0 1 1.05-.285l3.791 2.352c.351.218.461.682.245 1.037a.74.74 0 0 1-1.025.248l-3.12-1.934-1.628 3.037a.76.76 0 0 1-.663.394Z"
+            fill="#000"
+            stroke="#000"
+            stroke-width="0.4"
+          ></path>
+        </svg>
+        <br /><br />
+        <span class="h6">Returns</span>
+        <br />
+        <span>Return goods in 30 days</span>
+      </div>
+      <div class="col-4">
+        <svg
+          width="50"
+          height="37"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 50 37"
+        >
+          <path
+            d="M42.045 0H7.955A7.955 7.955 0 0 0 0 7.955v20.454a7.955 7.955 0 0 0 7.955 7.955h34.09A7.955 7.955 0 0 0 50 28.409V7.955A7.955 7.955 0 0 0 42.045 0Zm5.682 28.41a5.681 5.681 0 0 1-5.681 5.68H7.954a5.682 5.682 0 0 1-5.682-5.68V11.363h45.454v17.045Zm0-19.32H2.273V7.956a5.682 5.682 0 0 1 5.682-5.682h34.09a5.682 5.682 0 0 1 5.682 5.682V9.09ZM34.091 31.819a4.545 4.545 0 0 0 2.273-.614 4.545 4.545 0 1 0 2.272-8.477c-.801 0-1.587.22-2.272.637a4.387 4.387 0 0 0-2.273-.637 4.546 4.546 0 0 0 0 9.091ZM38.068 25a2.271 2.271 0 1 1 1.023 4.428 2.271 2.271 0 0 1-1.023-.019 4.546 4.546 0 0 0 0-4.409Zm-3.977 0a2.273 2.273 0 1 1 0 4.546 2.273 2.273 0 0 1 0-4.546ZM6.818 28.41a1.136 1.136 0 0 1 1.137-1.137h9.09a1.137 1.137 0 0 1 0 2.273h-9.09a1.136 1.136 0 0 1-1.137-1.137Z"
+            fill="#000"
+          ></path>
+        </svg>
+        <br /><br /><br />
+        <span class="h6">Secured Payment</span>
+        <br />
+        <span>Shop safely</span>
+      </div>
+    </div>
+    <!-- property -->
+
+        <!-- Footer -->
+        <footer
+        class="text-center text-white pb-5"
+        style="background-color: #383634"
+      >
+        <!-- Grid container -->
+        <div class="container p-4">
+          <!-- Section: Links -->
+          <section class="container-xxl mb-3">
+            <!--Grid row-->
+            <div class="row">
+              <!--Grid column-->
+              <div class="col-lg-3 col-md-6 mb-4 mb-md-0 text-start">
+                <p class="text-white">Info</p>
+  
+                <ul class="list-unstyled mb-0">
+                  <li class="mb-2">
+                    <a href="#!" class="text-white underline-on-hover"
+                      >About Us</a
+                    >
+                  </li>
+                  <li class="mb-2">
+                    <a href="#!" class="text-white underline-on-hover">Journal</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="#!" class="text-white underline-on-hover"
+                      >Privacy Policy</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <!--Grid column-->
+  
+              <!--Grid column-->
+              <div class="col-lg-5 col-md-6 mb-4 mb-md-0 text-start">
+                <p class="text-white">Support</p>
+  
+                <ul class="list-unstyled mb-0">
+                  <li class="mb-2">
+                    <a href="#!" class="text-white underline-on-hover">FAQ</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="#!" class="text-white underline-on-hover"
+                      >Contact Us</a
+                    >
+                  </li>
+                  <li class="mb-2">
+                    <a href="#!" class="text-white underline-on-hover"
+                      >Shipping & Returns</a
+                    >
+                  </li>
+                  <li class="mb-2">
+                    <a href="#!" class="text-white underline-on-hover"
+                      >How to use this theme</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <!--Grid column-->
+  
+              <!--Grid column-->
+              <div class="col-lg-4 col-md-6 mb-4 mb-md-0 text-start">
+                <p class="text-white">Newsletter</p>
+  
+                <p class="mb-5" style="font-size: 14px">
+                  Get 15% off your first purchase! Plus, be the first to <br />
+                  know about sales, new product launches and <br />
+                  exclusive offers!
+                </p>
+  
+                <div class="input-container mb-3">
+                  <input
+                    type="text"
+                    id="user-input"
+                    placeholder="Enter your text"
+                  />
+                  <span class="arrow-container"
+                    ><i class="text-white fas fa-arrow-right"></i
+                  ></span>
+                </div>
+  
+                <div class="text-end">
+                  <!-- Twitter -->
+                  <a class="fafaIcon" href="#!" role="button"
+                    ><i class="text-white fab fa-twitter"></i
+                  ></a>
+  
+                  <!-- Facebook -->
+                  <a class="fafaIcon" href="#!" role="button"
+                    ><i class="text-white fa-brands fa-facebook"></i
+                  ></a>
+  
+                  <!-- Instagram -->
+                  <a class="fafaIcon" href="#!" role="button"
+                    ><i class="text-white fa-brands fa-instagram"></i
+                  ></a>
+  
+                  <!-- You-tube -->
+                  <a class="fafaIcon" href="#!" role="button"
+                    ><i class="text-white fab fa-youtube"></i
+                  ></a>
+                </div>
+              </div>
+              <!--Grid column-->
+            </div>
+            <!--Grid row-->
+          </section>
+          <!-- Section: Links -->
+        </div>
+        <!-- Grid container -->
+  
+        <hr class="mb-5" />
+        <!-- horizontal line -->
+  
+        <div class="container-xl">
+          <div class="row">
+            <div class="col text-start">
+              <div class="row">
+                <div class="col">
+                  <p class="text-white">Country/Region</p>
+                  <select
+                    class="form-select text-white"
+                    style="background-color: rgb(56, 54, 52)"
+                  >
+                    <option value="1">Australia (AUS $)</option>
+                    <option value="2">Canada (CAD $)</option>
+                    <option value="3">United States (US $)</option>
+                    <option value="4">Germany (EUR €)</option>
+                    <option value="5">Hong Kong (HKD $)</option>
+                  </select>
+                </div>
+                <!-- <br> -->
+                <div class="col">
+                  <p>Language</p>
+                  <select
+                    class="form-select text-white"
+                    style="background-color: rgb(56, 54, 52)"
+                  >
+                    <option value="1">English</option>
+                    <option value="2">Deutsch</option>
+                    <option value="3">普通话</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col text-end">
+              <div class="mb-3">
+                <img src="/img/amex.png" alt="amex" />
+                <img src="/img/mastercard.png" alt="master" />
+                <img src="/img/visa.png" alt="vias" />
+              </div>
+              <p style="font-size: 14px">
+                2023 (c) . Built by <a href="#" class="text-white">Matter</a> .
+                Powered by <a href="#" class="text-white"> JAMM.™</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- Footer -->
+
+    <!-- bootstrap js link  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- MDB -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.js"
+    ></script>
+
+    <!-- javascript link  -->
+    <script src="/home/index.js"></script>
+  </body>
+</html>

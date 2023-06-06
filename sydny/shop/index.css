@@ -1,0 +1,127 @@
+.messagehead p {
+  background-color: rgb(247, 247, 247);
+}
+
+
+/* nav bar css */
+.navbarstyle {
+  background-color: white;
+  padding: 50px 0px 0px 0px;
+}
+
+.pages {
+  color:#000000;
+  font-size: 10px ;
+  font-family:sans-serif;
+  padding-bottom: 32px;
+  text-align: center;
+}
+.pages:hover{
+  border-bottom: 3px solid #000000;
+  /* outline: 5px solid red; */
+  padding-bottom: 30px;
+  color: red;
+}
+.inline-element{
+  display: inline;
+}
+
+.about{
+  padding: 40px;
+  background-color: rgb(252,250,246);
+}
+
+
+#iconbackground{
+  border: 1px solid rgb(241,241,241);
+  border-radius: 20px;
+  background-color: rgb(241,241,241);
+  padding: 4px;
+}
+
+/* breadcrumb-style */
+.breadcrumb-style{
+  color: black;
+  font-size: 14px;
+  font-family: serif;
+  text-decoration: none;
+}
+.breadcrumb-style :hover{
+  color:rgb(219, 165, 84);
+}
+
+#load-btn{
+  width: 190px;
+  text-decoration: none;
+  padding:10px 30px;
+  background-color: white ; 
+  border: 2px solid black;
+  color: black;
+}
+#load-btn :hover{
+  border: 2px solid rgb(238, 18, 18);
+}
+
+ /* footer */
+ .underline-on-hover {
+  font-family: sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+  position: relative;
+}
+
+.underline-on-hover::after {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  height: 2px;
+  width: 0;
+  background-color: #ffffff; /* Set your desired underline color */
+  transition: width 0.6s ease;
+}
+
+.underline-on-hover:hover::after {
+  width: 100%;
+}
+
+
+.input-container {
+  position: relative;
+  display: inline-block;
+}
+
+#user-input {
+  padding: 8px 40px 8px 15px;
+  border: none;
+  font-size: 14px;
+  width: 350px;
+  transition: border-color 0.3s ease;
+}
+
+#user-input:focus {
+  outline: none;
+}
+
+.arrow-container {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  font-size: 20px;
+  color: #080808;
+}
+
+.fafaIcon{
+  margin: 10px;
+  padding: 6px;
+  font-size: 20px;
+  background-color: rgb(56,54,52);
+}
+.fafaIcon:hover{
+  border-radius: 100%;
+  background-color: rgba(124,125,122, 0.5);
+}
+
+
+  

@@ -1,0 +1,93 @@
+/* nav bar css */
+#navPage{
+  color: black;
+  font-size: 15px;
+  font-family: sans-serif;
+}
+#navPage:hover{
+  border-bottom: black solid 2px ;
+}
+
+
+
+/* banner 1 css */
+.banner-styleA{
+    font-family: sans-serif;
+}
+.banner-styleA :hover{
+    color:rgb(231,167,79);
+    text-decoration: underline;
+    text-decoration-style: 1px solid;
+}
+
+#nav2text{
+  color:#000000;
+  font-size: 15px ;
+  font-family:sans-serif;
+  margin: 48px 25px 0px 0px;
+  padding: 0px 0px 50px; 
+}
+
+
+
+ /* footer */
+ .underline-on-hover {
+    font-family: sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    position: relative;
+  }
+  
+  .underline-on-hover::after {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    height: 2px;
+    width: 0;
+    background-color: #ffffff; /* Set your desired underline color */
+    transition: width 0.6s ease;
+  }
+  
+  .underline-on-hover:hover::after {
+    width: 100%;
+  }
+
+
+  .input-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  #user-input {
+    padding: 8px 40px 8px 15px;
+    border: none;
+    font-size: 14px;
+    width: 350px;
+    transition: border-color 0.3s ease;
+  }
+  
+  #user-input:focus {
+    outline: none;
+  }
+  
+  .arrow-container {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: #080808;
+  }
+  
+  .fafaIcon{
+    margin: 10px;
+    padding: 6px;
+    font-size: 20px;
+    background-color: rgb(56,54,52);
+}
+.fafaIcon:hover{
+    border-radius: 100%;
+    background-color: rgba(124,125,122, 0.5);
+}
+  
